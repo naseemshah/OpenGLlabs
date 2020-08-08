@@ -1,8 +1,9 @@
 # This code includes refernces using
 # unique reference code so that you can 
 # search, find and understand each line
-# of code. Please visit [link here] and
-# search for refernce code there.
+# of code. Please visit 
+# https://github.com/naseemshah/OpenGLlabs/Refrences
+# and search for refernce code there.
 
 # First Import necessary dependencies
 
