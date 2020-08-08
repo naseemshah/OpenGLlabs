@@ -8,8 +8,9 @@
 # unique reference code so that you can 
 # search, find and understand each line
 # of code. Please visit 
-# https://github.com/naseemshah/OpenGLlabs/Refrences
+# https://github.com/naseemshah/OpenGLlabs/tree/master/Refrences
 # and search for refernce code there.
+
 
 from OpenGL.GL import *
 from OpenGL.GLUT import *
