@@ -22,7 +22,7 @@ def main():
     glutInitDisplayMode(GLUT_SINGLE|GLUT_RGB)
     glutInitWindowSize(500,500)
     glutInitWindowPosition(50,50)
-    glutCreateWindow("Plot Origin")
+    glutCreateWindow("Plot Origin  | Naseem's OpenGLlabs")
     glutDisplayFunc(plotpoints)
     init()
     glutMainLoop()
