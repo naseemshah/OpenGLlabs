@@ -34,7 +34,7 @@ def hLine(xmin,xmax,y):
     glEnd() # RE1001
     glFlush() # RE1012
 
-# Function to plot Horizontal Line
+# Function to plot Vertical Line
 # on a given y-cordinate range 
 # and of a specific x-cordinate level
 def vLine(ymin,ymax,x):
@@ -43,7 +43,7 @@ def vLine(ymin,ymax,x):
     glPointSize(10.0) # RE1011 this will set the point with a specific radius that we give
     glBegin(GL_POINTS) # RE1001 We begin plotting point
     y = ymin
-    while(y <= ymax): # this loop iterates from the xmin to xmax points
+    while(y <= ymax): # this loop iterates from the ymin to ymax points
         glVertex2f(x,y) # this will plot the x,y points
         y = y + 0.05 # incerement along y by 0.05 (decrease this to get non dotted line)
     glEnd() # RE1001
@@ -57,7 +57,7 @@ def diagonalLine(x,y):
     glColor3f(1.0,0.0,0.0) # RE1007 This will set color RGB(1,0,0) which is red
     glPointSize(10.0) # RE1011 this will set the point with a specific radius that we give
     glBegin(GL_POINTS) # RE1001 We begin plotting point
-    while(x <= y): # this loop iterates from the xmin to xmax points
+    while(x <= y): # this loop iterates from the (x,x) to (y,y) points
         glVertex2f(x,x) # this will plot the (x,x) points
         x = x + 0.05 # incerement along x by 0.05 (decrease this to get non dotted line)
     glEnd() # RE1001
