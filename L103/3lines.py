@@ -70,7 +70,7 @@ def main():
     if(int(choice) == 1):
         xmin = float(input("Enter x start range: "))
         xmax = float(input("Enter x end range: "))
-        y = float(input("Enter Y heigth: "))
+        y = float(input("Enter Y offset: "))
         print("starting window....")
         glutInit(sys.argv)
         glutInitDisplayMode(GLUT_RGB)
@@ -84,7 +84,7 @@ def main():
     elif (int(choice) == 2):
         ymin = float(input("Enter y start range: "))
         ymax = float(input("Enter y end range: "))
-        x = float(input("Enter x co-ordinate: "))
+        x = float(input("Enter x offset: "))
         print("starting window....")
         glutInit(sys.argv)
         glutInitDisplayMode(GLUT_RGB)
