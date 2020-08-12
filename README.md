@@ -10,9 +10,9 @@ Reference page: https://github.com/naseemshah/OpenGLlabs/Refrences
 
     Each program is logged as they are committed. Use this section to find programs easily. (Latest first).
 
-- ## L103: Draw a square
+- ## L103: Draw a line
     
-    Description: A program to draw a 3 Lines of choice:
+    Description: A program to draw a line from 3 Lines of choice:
     
         Option 1 : Horizontal Line - ask for X-coordinate range and specific Y-coordinate and plot the line.
         
