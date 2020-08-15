@@ -45,7 +45,7 @@ def plotLine(x1,y1,x2,y2):
     glBegin(GL_POINTS) # RE1001 sets point mode
 
     for step in range(1,steps+1): # Loops from 1 to n for n steps
-        glVertex2f(x1,y1) # Plot the point at (x1,y1)
+        glVertex2f(round(x1),round(y1)) # Plot the point at (x1,y1)
         x1 = x1 + Xincrement # update x1 to next X cordinate
         y1 = y1 + Yincrement # update y1 to next Y cordinate
     
