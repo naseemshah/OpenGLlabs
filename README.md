@@ -10,6 +10,21 @@ Reference page: https://github.com/naseemshah/OpenGLlabs/Refrences
 
     Each program is logged as they are committed. Use this section to find programs easily. (Latest first).
 
+- ## L104: Line Algorithm: DDA
+    
+    Description: A program to draw a line using DDA
+
+    + Language: Python
+    + Dependencies:
+        + PyOpenGL
+        + GLUT
+    + Directory: /L104
+    + Main file: dda.py
+
+    ### Screenshots
+    ![Screenshot of inputing](/L104/sscode.jpg)
+    ![Screenshot of displaying a line using DDA](/L104/ss.jpg)
+
 - ## L103: Draw a line
     
     Description: A program to draw a line from 3 Lines of choice:
@@ -29,12 +44,12 @@ Reference page: https://github.com/naseemshah/OpenGLlabs/Refrences
 
     ### Screenshots
 
-    ![Screenshot of displaying square](/L103/vcode.jpg)
-    ![Screenshot of displaying square](/L103/v.jpg)
-    ![Screenshot of displaying square](/L103/hcode.jpg)
-    ![Screenshot of displaying square](/L103/h.jpg)
-    ![Screenshot of displaying square](/L103/dcode.jpg)
-    ![Screenshot of displaying square](/L103/d.jpg)
+    ![Screenshot of displaying inputing](/L103/vcode.jpg)
+    ![Screenshot of displaying Vertical Line](/L103/v.jpg)
+    ![Screenshot of displaying inputing](/L103/hcode.jpg)
+    ![Screenshot of displaying Horizontal Line](/L103/h.jpg)
+    ![Screenshot of displaying inputing](/L103/dcode.jpg)
+    ![Screenshot of displaying diagonal Line](/L103/d.jpg)
 
 
 

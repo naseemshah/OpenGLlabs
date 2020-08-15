@@ -14,7 +14,7 @@ Refrences, tutorials, links, articles & videos used to make all the programs in 
 | RE1007 | `glMatrixMode()`: specify which matrix is the current matrix | Docs: https://www.khronos.org/registry/OpenGL-Refpages/gl2.1/xhtml/glMatrixMode.xml
 | RE1008 | `glOrtho()`: Multiply the current matrix with an orthographic matrix| Docs: https://www.khronos.org/registry/OpenGL-Refpages/gl2.1/xhtml/glOrtho.xml
 | RE1009 | `glClearColor()`: specify clear values for the color buffers| Docs: https://www.khronos.org/registry/OpenGL-Refpages/es2.0/xhtml/glClearColor.xml
-| RE1010 | `gluOrtho2D()`: gluOrtho2D sets up a two-dimensional orthographic viewing region.| Docs: https://www.khronos.org/registry/OpenGL-Refpages/gl2.1/xhtml/gluOrtho2D.xml
+| RE1010 | `gluOrtho2D()`: gluOrtho2D sets up a two-dimensional orthographic viewing region.| Docs: https://www.khronos.org/registry/OpenGL-Refpages/gl2.1/xhtml/gluOrtho2D.xml <br > Explanation: https://stackoverflow.com/questions/49705057/not-understanding-the-gluortho2d-function
 | RE1011 | `glPointSize()`: specifies the diameter of points | Docs: https://www.khronos.org/registry/OpenGL-Refpages/gl2.1/xhtml/glPointSize.xml
 | RE1012 | `glFlush()`: force execution of GL commands in finite time| Docs: https://www.khronos.org/registry/OpenGL-Refpages/gl2.1/xhtml/glFlush.xml
 | RE1013 | `lamda: function(args)` -  to bind arguments when the other function expects onlh one argument. this is a work around | Stackoverflow: https://stackoverflow.com/questions/803616/passing-functions-with-arguments-to-another-function-in-python
