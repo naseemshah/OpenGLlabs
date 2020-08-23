@@ -40,7 +40,7 @@ Reference page: https://github.com/naseemshah/OpenGLlabs/Refrences
 
     ### Screenshots
     ![Screenshot of inputing](/L104/sscode.jpg)
-    ![Screenshot of displaying a line using DDA](/L104/ss.jpg)
+    ![Screenshot of displaying a line using DDA](/L105/ss.jpg)
 
 - ## L103: Draw a line
     
