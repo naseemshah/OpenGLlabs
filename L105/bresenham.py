@@ -61,7 +61,7 @@ def main():
             glutInitDisplayMode(GLUT_RGB)
             glutInitWindowSize(500,500)
             glutInitWindowPosition(0,0)
-            glutCreateWindow("Plot Line using DDA | Naseem's OpenGLlabs")
+            glutCreateWindow("Plot Line using Bresenham Algorithm | Naseem's OpenGLlabs")
             glutDisplayFunc(lambda: plotLine(x1,y1,x2,y2)) # Refer RE1013 for why the use of lambda
             glutIdleFunc(lambda: plotLine(x1,y1,x2,y2))
             init()

@@ -10,7 +10,7 @@ Reference page: https://github.com/naseemshah/OpenGLlabs/Refrences
 
     Each program is logged as they are committed. Use this section to find programs easily. (Latest first).
 
-- ## L104: Line Algorithm: DDA
+- ## L105: Line Algorithm: Bresenham
     
     Description: A program to draw a line using Bresenham Algorithm
 
