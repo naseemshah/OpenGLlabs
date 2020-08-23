@@ -12,6 +12,23 @@ Reference page: https://github.com/naseemshah/OpenGLlabs/Refrences
 
 - ## L104: Line Algorithm: DDA
     
+    Description: A program to draw a line using Bresenham Algorithm
+
+    + Language: Python
+    + Dependencies:
+        + PyOpenGL
+        + GLUT
+    + Directory: /L105
+    + Main file: bresenham.py
+
+    ### Screenshots
+    ![Screenshot of inputing](/L105/sscode.jpg)
+    ![Screenshot of displaying a line using DDA](/L105/ss.jpg)
+
+
+
+- ## L104: Line Algorithm: DDA
+    
     Description: A program to draw a line using DDA
 
     + Language: Python
