@@ -10,6 +10,22 @@ Reference page: https://github.com/naseemshah/OpenGLlabs/Refrences
 
     Each program is logged as they are committed. Use this section to find programs easily. (Latest first).
 
+
+- ## L106: Mid-point Line Algorithm
+    
+    Description: A program to draw a line using  Mid-point Line Algorithm
+
+    + Language: Python
+    + Dependencies:
+        + PyOpenGL
+        + GLUT
+    + Directory: /L106.py
+
+    ### Screenshots
+    ![Screenshot of inputing](/L106/sscode.png)
+    ![Screenshot of displaying a line using Midpoint Line Algorithm](/L106/ss.png)
+
+
 - ## L105: Line Algorithm: Bresenham
     
     Description: A program to draw a line using Bresenham Algorithm
