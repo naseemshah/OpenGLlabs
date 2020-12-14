@@ -18,13 +18,30 @@ from OpenGL.GLU import *
 
 w, h = 500,500
 
+
+# Sqquare
+GLOBAL_X = 0.0 
+FPS = 60.0
+
+
+
 def square(): # in this function we define vertices of square to draw
     glBegin(GL_QUADS) # RE1000
-    glVertex2f(100, 100) # RE1001 | Coordinates for the bottom left point
-    glVertex2f(200, 100) # RE1001 | Coordinates for the bottom right point
-    glVertex2f(200, 200) # RE1001 | Coordinates for the top right point
-    glVertex2f(100, 200) # RE1001 | Coordinates for the top left point
+    glVertex2f(GLOBAL_X, 100) # RE1001 | Coordinates for the bottom left point
+    glVertex2f(GLOBAL_X +100, 100) # RE1001 | Coordinates for the bottom right point
+    glVertex2f(GLOBAL_X +100, 200) # RE1001 | Coordinates for the top right point
+    glVertex2f(GLOBAL_X, 200) # RE1001 | Coordinates for the top left point
     glEnd() # RE1000
+    glutSwapBuffers()
+
+def update(value):
+    global GLOBAL_X
+    global FPS
+    glutPostRedisplay()
+    glutTimerFunc(int(1000/FPS),update,int(0))
+    GLOBAL_X = GLOBAL_X + 1.0
+    
+
 
 def showScreen(): #This function we use to show stuff on screen
     glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT) # RE1002 Remove everything from screen
@@ -32,7 +49,7 @@ def showScreen(): #This function we use to show stuff on screen
     iterate()
     glColor3f(1.0, 0.0, 3.0) # RE1005 | gives color to following code
     square() # Draw square
-    glutSwapBuffers() # RE1004 | Swaps buffers
+    # glutSwapBuffers() # RE1004 | Swaps buffers
 
 # However, our code is still not complete. What it currently
 # does is draw the square once, and then clear the screen again.
@@ -44,16 +61,18 @@ def iterate():
     glViewport(0, 0, 500,500) # RE1006
     glMatrixMode(GL_PROJECTION) # RE1007
     glLoadIdentity() # RE1003
-    glOrtho(0.0, 500, 0.0, 500, 0.0, 1.0) # RE1008
+    glOrtho(0.0, 2000, 0.0, 2000, 0.0, 1.0) # RE1008
     glMatrixMode (GL_MODELVIEW) # RE1007
     glLoadIdentity() # RE1003
 
 
 glutInit()
-glutInitDisplayMode(GLUT_RGBA) # Set the display mode to be colored
+glutInitDisplayMode(GLUT_RGBA | GLUT_DOUBLE) # Set the display mode to be colored
 glutInitWindowSize(500, 500)   # Set the w and h of your window
 glutInitWindowPosition(0, 0)   # Set the position at which this windows should appear
+
 wind = glutCreateWindow("Draw a Square | Naseem's OpenGLlabs") # Set a window title
 glutDisplayFunc(showScreen)
 glutIdleFunc(showScreen) # Keeps the window open
+glutTimerFunc(int(0),update,int(0))
 glutMainLoop()  # Keeps the above created window displaying/running in a loop
