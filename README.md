@@ -4,7 +4,7 @@ Set of OpenGL programs experimenting the OpenGL library using Python and C++.
 # References
 Refrences, tutorials, links, articles & videos used to make all the programs in this repo. Each reference is assigned a unique code and will be commented in the program. So that everyone can search and find references from the refernce page easily.
 
-Reference page: https://github.com/naseemshah/OpenGLlabs/Refrences
+Reference page: https://github.com/naseemshah/OpenGLlabs/blob/master/Refrences/README.md
 
 # Logs
 
